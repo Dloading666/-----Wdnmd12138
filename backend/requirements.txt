@@ -1,0 +1,23 @@
+# 显式指定numpy，使用预编译版本避免中文路径编码问题
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+pymysql==1.1.0
+cryptography==41.0.7
+langchain==0.1.0
+langchain-openai==0.0.2
+langchain-community==0.0.10
+requests==2.31.0
+beautifulsoup4==4.12.2
+pydantic==2.5.0
+pydantic-settings==2.1.0
+pydantic[email]==2.5.0
+python-dotenv==1.0.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+nba-api==1.2.1
+dashscope>=1.14.0
